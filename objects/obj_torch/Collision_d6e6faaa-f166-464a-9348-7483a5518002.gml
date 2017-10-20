@@ -1,2 +1,4 @@
-with obj_torch_enemy if instance_exists(obj_player)
-move_towards_point(obj_player.x, obj_player.y, 5);
+with obj_enemy 
+{
+hsp = walksp * sign(obj_player.x - x)
+}

@@ -1,2 +1,4 @@
-x = obj_torch_enemy.x+30;
-y = obj_torch_enemy.y;
+x = obj_enemy.x+(30*image_xscale);
+y = obj_enemy.y;
+
+image_xscale = obj_enemy.image_xscale

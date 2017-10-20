@@ -1,5 +1,5 @@
-x = obj_player.x+20;
-y = obj_player.y-25;
+x = obj_player.x+5;
+y = obj_player.y-27;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 
@@ -17,6 +17,3 @@ if (mouse_check_button(mb_left)) && (firingdelay < -20)
 		sprite_index = spr_throw_kunai;
 	}
 }
-
-
-//kunai seuraa hiirtä, korvaa image_angle = x = 1   //point_direction(x,y,mouse_x,mouse_y)
